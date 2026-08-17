@@ -1,3 +1,6 @@
+''' Exercício 012 - Faça um algoritmo que leia o preçi de um produto e mostre o seu novo preço, 
+com 5% de desconto. '''
+
 preco = float(input('Qual é o preço do produto? R$ '))
 novopreco = preco - (preco * 5/100)
 

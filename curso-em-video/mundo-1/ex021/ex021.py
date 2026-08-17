@@ -1,7 +1,9 @@
+''' Exercício 021 - Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3. '''
+
 import pygame
 
 pygame.mixer.init()
 pygame.init()
-pygame.mixer.music.load('Ex. 21 - Tocando um MP3/Undertale - Megalovania.mp3')
+pygame.mixer.music.load('ex021/Undertale - Megalovania.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()

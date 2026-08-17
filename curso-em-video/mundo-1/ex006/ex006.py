@@ -1,3 +1,6 @@
+''' Exercício 006 - Crie um algoritmo que leia um número e mostre o seu dobro, triplo e
+raiz quadrada. '''
+
 num = int(input('Digite um número: '))
 
 print(f'O dobro de {num} vale {num*2}.')

@@ -1,3 +1,6 @@
+''' Exercício 008 - Escreva um programa que leia um valor em metros e o exiba convertido em
+centímetros e milímetros. '''
+
 distancia = float(input('Uma distância em metros: '))
 
 km = distancia / 1000
